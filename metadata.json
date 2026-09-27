@@ -1,0 +1,8 @@
+{
+  "name": "FinAccess - Assistant Financement PME & Startups",
+  "description": "Assistant intelligent pour PME et startups : diagnostic de crédibilité bancaire, dossier structuré et matching financeurs qualifiés au modèle success-fee.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

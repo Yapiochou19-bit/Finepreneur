@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 140" width="100%" height="100%">
+  <defs>
+    <filter id="softShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#1F4E79" flood-opacity="0.12" />
+    </filter>
+  </defs>
+
+  <!-- Circular Badge -->
+  <g transform="translate(10, 10)">
+    <circle cx="60" cy="60" r="58" fill="#1F4E79" filter="url(#softShadow)" />
+
+    <!-- Stylized Rounded F in White -->
+    <path
+      d="M44 38 H76 Q81 38 81 43 Q81 48 76 48 H52 V58 H70 Q75 58 75 63 Q75 68 70 68 H52 V84 Q52 89 47 89 Q42 89 42 84 V46 Q42 38 49 38"
+      fill="#FFFFFF"
+    />
+
+    <!-- Orange Accent Dot -->
+    <circle cx="86" cy="42" r="7.5" fill="#E89B3C" />
+  </g>
+
+  <!-- Typography -->
+  <g transform="translate(148, 40)">
+    <text
+      x="0"
+      y="48"
+      font-family="'Nunito Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif"
+      font-size="46"
+      font-weight="800"
+      letter-spacing="-0.5"
+      fill="#263238"
+    >
+      finepreneur
+    </text>
+    <rect x="0" y="58" width="76" height="4.5" rx="2.2" fill="#E89B3C" />
+  </g>
+</svg>
